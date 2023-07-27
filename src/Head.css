@@ -1,0 +1,129 @@
+.Head {
+    background-color: black;
+}
+
+.Head-nav .uil-Head {
+    text-align: center;
+    margin-top: -30px;
+    padding-bottom: 20px;
+
+} 
+
+.Head-nav .iocoko {
+    text-align: right;
+    margin-top: -60px;
+}
+
+.Head-nav ul {
+    text-align: center;
+}
+
+.Head-nav{
+    background-color: black;
+}
+
+.head-brand {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+#span-head {
+    color: white;
+    padding-left: 20px;
+}
+
+.uil-Head {
+    list-style-type: none;
+    display: block;
+    text-align: center;
+}
+
+.uil-Head #liui {
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+.recaction-cmp {
+    padding-right: 20px;
+}
+
+/*  head ul icon design 1*/
+
+#liui .bi-envelope-at-fill {
+    color: white;
+    padding-right: 10px;
+}
+
+#liui .bi-person-rolodex {
+    color: white;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+/* head ul icon design 2*/
+
+.recaction-cmp #recuili {
+    display: inline-block;
+}
+
+ .bi-house {
+    color: white;
+    padding-right: 10px;
+}
+
+#recuili .bi-buildings-fill {
+    color: white;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+#recuili .bi-person-lines-fill{
+    color: white;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+#recuili .bi-geo{
+    color: white;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+#recuili .bi-telephone{
+    color: white;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+#recuili {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*glow eff*/
+
+.iocoko #recuili:hover {
+    color:white;
+    text-shadow: 0 0 10px white, 0 0 40px white;
+}
+
+#recuili .bi-house:hover {
+    color:white;
+    text-shadow: 0 0 10px white, 0 0 40px white;
+}
+
+@media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) {
+        
+        #span-head {
+            color: transparent;
+        }
+
+
+
+
+    }

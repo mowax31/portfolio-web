@@ -1,0 +1,171 @@
+.imro {
+    background-color: black;
+}
+
+.mkmmkmk {
+    background-image: url(./pics/pppp.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.kikiki {
+    height: 800px;
+    width: 1800px;
+    margin: auto;
+    cursor: pointer;
+}
+
+#jill {
+    text-align: center;
+    padding-top: 10%;
+    font-size: 6vh;
+    -webkit-text-stroke: 0.2vh whitesmoke;
+    text-transform: uppercase;
+    color:white;
+    text-shadow: 0 0 10px white, 0 0 10px white;
+
+}
+
+.homjs-cnt {
+    padding-left: 32%;
+    padding-top: 18%;
+}
+
+.homjs-cnt div{
+    margin-left: 60px;
+}
+
+.homjs-cnt .homjsser{
+    display: inline-block;
+}
+
+.homjs-cnt .homjs-ord{
+    display: inline-block;
+    padding-left: 25px;
+}
+
+/*button 2*/
+
+#abcd-href {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+#abcd-href:hover {
+    color: gray;
+    background: white;
+    box-shadow: 0 0 10px whitesmoke, 0 0 40px whitesmoke, 0 0 80px whitesmoke;
+}
+
+/*button 1*/
+
+#a-href-ik {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+#a-href-ik span{
+    position: absolute;
+    display: block;
+}
+
+#a-href-ik span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(90deg,transparent,white);
+
+}
+
+#a-href-ik:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+#a-href-ik span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(270deg,transparent,white);
+
+}
+
+#a-href-ik:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#a-href-ik span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(180deg,transparent,white);
+
+}
+
+#a-href-ik:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#a-href-ik span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(360deg,transparent,white);
+
+}
+
+#a-href-ik:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+@media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) {
+    .mkmmkmk {
+        background-image: url(./pics/pppp.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .kikiki {
+        height: 400px;
+        width: 400px;
+        margin: auto;
+    }
+
+    #jill {
+        color: transparent;
+        -webkit-text-stroke: transparent;
+        text-shadow: 0 0 10px transparent, 0 0 10px transparent;
+    }
+
+
+    }

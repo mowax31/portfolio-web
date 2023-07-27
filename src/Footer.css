@@ -1,0 +1,103 @@
+
+.Footer-start {
+    background-color: black;
+}
+
+#Footer-full {
+    padding-bottom: 50px;
+}
+
+.list-group-item {
+    background-color: black;
+    color: gold;
+}
+
+.Footer-gap-bw-rw {
+    margin-bottom: 50px;
+}
+
+.Footer-logo-margin-gap {
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+#Footer-img {
+    margin-left: 25%;
+}
+
+.bi-geo-alt {
+    color: white;
+    padding-right: 5px;
+}
+
+.bi-envelope-at {
+    color: white;
+    padding-right: 5px;
+}
+
+.bi-phone {
+    color: white;
+    padding-right: 5px;
+}
+
+.bi-building {
+    color: white;
+    padding-right: 5px;
+}
+
+.bi-facebook {
+    color: blue;
+    padding-right: 5px;
+}
+
+.bi-whatsapp {
+    color: green;
+    padding-right: 5px;
+}
+
+.bi-instagram {
+    color: purple;
+    padding-right: 5px;
+}
+
+.bi-twitter {
+    color: skyblue;
+    padding-right: 5px;
+}
+
+#Footer-pg{
+    padding-left: 10%;
+}
+
+.Footer-Description {
+
+    margin-bottom: 50px;
+}
+
+
+#Hor-line {
+    margin-left: 50px;
+    padding-bottom: 20px;
+    width: 50%;
+}
+
+.Footer-gap-bw-1st-rw {
+    margin-left: 5%;
+}
+
+#aheff {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+#Footer-full-bottom {
+    padding-top: 50px;
+}
+
+h4 {
+    color: white;
+}
+
+p {
+    color: white;
+}
